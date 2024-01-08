@@ -6,7 +6,7 @@ func Hello() string {
 
 func HelloName(name string) string{
 	if name==""{
-		return "Hello, World"
+		return "Hello World"
 	}
-	return "Hello, "+name
+	return "Hello "+name
 }
