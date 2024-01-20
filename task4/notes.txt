@@ -1,0 +1,22 @@
+- 2 functtions cant have same function name. To resolve this we can use methods 
+- Function syntax - 
+  func Name(obj StructName) returnType {
+
+  }
+  To access it - Name(obj)
+- method syntax - 
+  func (obj StructName) Name() returnType{
+
+  }
+  To access it - obj.Name()
+  // This is equivalent to using 'this' pointer in C++
+
+- interfaces in go is used for reusability of code. It comtaines function names. 
+If any structure has same function name with same return type then by default it will be a part of the interface. structure object can be passed to a interface object.
+
+  type InterfaceName interface{
+    funcName returnType()
+  }
+
+- Table driven tests to make your assertions clearer and your test suites easier to extend & maintain
+    - This is done by making array of interface objects 
